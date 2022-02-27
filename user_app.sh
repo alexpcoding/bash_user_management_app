@@ -72,13 +72,33 @@ done
 		"Change/lock password")
 
 PS3=$'\n'"Select an option: "
-options1=("Change password" "Lock password" "Back to main menu" "Quit")
+options1=("Set/Change password" "Lock/unlock password" "Back to main menu" "Quit")
 select opt1 in "${options1[@]}"
 do
         case $opt1 in
-		"Change password" ) echo "test1"
+		"Set/Change password" )
+
+while :
+do
+read -p "user name(press CTRL+D for prev menu): " user_passwd; if [ $? -eq 1 ]; then break; else
+passwd $user_passwd; if [ $? -eq 0 ];then echo "Password set."; else echo "Password not set.";fi
+fi
+done
+
 			;;
-		"Lock password"  ) echo "test2"
+		"Lock/unlock password"  )
+while :
+do
+read -p "user name (press CTRL+d for prev menu): " user_lock; if [ $? -eq 1 ]; then break; else
+if [[ `passwd --status $user_lock | cut -d " " -f2` == "P" ]]; then echo -n  "Password for user $user_lock is unlocked. Lock password ?" ; read -p " y/n " answer1;
+if [ $answer1 == "y" ]; then passwd -l $user_lock; echo "Password locked.";fi
+else
+echo -n "Password for user $user_lock is locked. Unlock password ?" ; read -p "y/n " answer2
+if [ $answer2 == "y" ]; then passwd -u $user_lock;echo "Password unlocked";fi
+fi
+fi
+done
+
 			;;
 		"Back to main menu" ) break
 			;;
