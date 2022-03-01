@@ -1,10 +1,15 @@
-# bash_user_management_app
+# Linux\unix user management app
 
-This is a sample readme file.Enjoy.
-* this is meant to be an example
-* markdown is fat
+This is a user menu-driven application that facilitates operations on linux system users.
+It also illustrates usage of unix shell scripting, as it is developed in bash.
 
-## link example
+Application options included:
+* listing users & user details
+* creating and deleting users
+* Setting & changing passwords
+* Locking & unlocking passwords
+
+## Examples
 [code time] (www.google.com)
 
 1. item one
