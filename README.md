@@ -10,10 +10,12 @@ Application options included:
 * Setting & changing passwords
 * Locking & unlocking passwords
 
-It is easy to use, only 2 options need mentioned :  
+Guidlines: 
 
 1.) press enter to display the current menu  
-2.) press CTRL+d to go back to previous menu ( when asked )
+2.) press CTRL+d to go back to previous menu ( when asked )  
+3.) make sure to run script as root  
+4.) do not forget to add execution permissions on file : `chmod a+x file`
 
 ## Examples
 
