@@ -16,5 +16,6 @@ It is easy to use, only 2 options need mentioned :
 
 ## Examples
 
-![image](https://user-images.githubusercontent.com/95858490/156162053-a7b42d09-8b66-44f4-8e4a-c4907aa720c7.png) ![image](https://user-images.githubusercontent.com/95858490/156162287-27ff9ce3-62bd-4d6d-ba7d-6cba6c28f1ab.png)
+![image](https://user-images.githubusercontent.com/95858490/156162053-a7b42d09-8b66-44f4-8e4a-c4907aa720c7.png) ![image](https://user-images.githubusercontent.com/95858490/156162287-27ff9ce3-62bd-4d6d-ba7d-6cba6c28f1ab.png) ![image](https://user-images.githubusercontent.com/95858490/156163388-d0306e04-3ccc-49d7-877d-d8dd757b3fc7.png)
+
 
