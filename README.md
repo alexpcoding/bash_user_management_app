@@ -6,7 +6,7 @@ It was developed on Ubuntu 20.04.3 LTS, but works on most linux distros.
 
 Application options included:
 * listing users & user details
-* creating (with options) and deleting users
+* creating (with options) & deleting users
 * setting & changing passwords
 * locking & unlocking passwords
 
