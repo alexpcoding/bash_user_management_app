@@ -11,6 +11,7 @@ Application options included:
 * Locking & unlocking passwords
 
 It is easy to use, only 2 options need mentioned :  
+
 1.) press enter to display the current menu  
 2.) press CTRL+d to go back to previous menu ( when asked )
 
