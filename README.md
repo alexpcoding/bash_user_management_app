@@ -1,4 +1,4 @@
-# Linux\unix user management app
+# linux\unix user management app
 
 This is a user menu-driven application that facilitates operations on linux system users.  
 It also illustrates usage of unix shell scripting, as it is developed in bash.
@@ -9,6 +9,10 @@ Application options included:
 * creating and deleting users
 * Setting & changing passwords
 * Locking & unlocking passwords
+
+It is easy to use, only 2 options need mentioned :
+1.) press enter to display the current menu
+2.) press CTRL+d to go back to previous menu ( when asked )
 
 ## Examples
 
