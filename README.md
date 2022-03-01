@@ -6,14 +6,14 @@ It was developed on Ubuntu 20.04.3 LTS, but works on most linux distros.
 
 Application options included:
 * listing users & user details
-* creating and deleting users
-* Setting & changing passwords
-* Locking & unlocking passwords
+* creating (with options) and deleting users
+* setting & changing passwords
+* locking & unlocking passwords
 
-Guidlines: 
-
+Guidelines:  
+  
 1.) press enter to display the current menu  
-2.) press CTRL+d to go back to previous menu ( when asked )  
+2.) press CTRL+d to go back to previous menu (when asked)  
 3.) make sure to run script as root  
 4.) do not forget to add execution permissions on file : `chmod a+x file`
 
