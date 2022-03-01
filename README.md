@@ -11,8 +11,5 @@ Application options included:
 * Locking & unlocking passwords
 
 ## Examples
-[code time] (www.google.com)
 
-1. item one
-2. item two
-3. item three
+![image](https://user-images.githubusercontent.com/95858490/156162053-a7b42d09-8b66-44f4-8e4a-c4907aa720c7.png)
