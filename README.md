@@ -1,6 +1,6 @@
 # Linux\unix user management app
 
-This is a user menu-driven application that facilitates operations on linux system users.
+This is a user menu-driven application that facilitates operations on linux system users.  
 It also illustrates usage of unix shell scripting, as it is developed in bash.
 
 Application options included:
